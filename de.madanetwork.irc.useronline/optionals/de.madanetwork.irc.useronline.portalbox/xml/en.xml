@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: en.xml 1114 2010-03-25 17:40:23Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+	<category name="wbb.portal">
+		<item name="wbb.portal.box.ircuseronline.title"><![CDATA[IRC User Online]]></item>
+		<item name="wbb.portal.box.ircuseronline.channeluser"><![CDATA[user]]></item>
+		<item name="wbb.portal.box.ircuseronline.nouser"><![CDATA[At the moment there aren´t any users active on irc]]></item>
+	</category>
+</language>

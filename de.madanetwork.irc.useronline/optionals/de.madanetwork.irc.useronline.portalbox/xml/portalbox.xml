@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: de.xml 1114 2010-03-25 17:40:23Z TobiasH87 $ -->
+<!DOCTYPE package SYSTEM "DTD/package.dtd">
+<data>
+	<import>
+		<portalboxitem name="ircuseronline">
+			<className>IRCUserOnlineBox</className>
+			<cacheBuilderClass></cacheBuilderClass>
+			<boxType>2</boxType>
+			<useCache>0</useCache>
+			<sortOrder>4</sortOrder>
+			<boxActivation>1</boxActivation>
+			<permissions>user.board.canViewIRCUserOnline</permissions>
+			<options>module_ircuseronline</options>
+		</portalboxitem>
+	</import>
+	<!--<delete>
+		<portalboxitem name="">
+	</delete>-->
+</data>

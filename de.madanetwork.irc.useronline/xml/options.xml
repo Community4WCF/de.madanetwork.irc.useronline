@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: options.xml 1541 2010-08-20 16:12:51Z TobiasH87 $ -->
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/options.xsd">
+	<import>
+		<categories>
+			<category name="ircuseronline">
+				<options>module_ircuseronline</options>
+			</category>
+			<category name="ircuseronline.general">
+				<parent>ircuseronline</parent>
+				<showorder>1</showorder>
+			</category>
+			<category name="ircuseronline.display">
+				<parent>ircuseronline</parent>
+				<showorder>2</showorder>
+			</category>
+			<category name="ircuseronline.chat">
+				<parent>ircuseronline</parent>
+				<showorder>3</showorder>
+			</category>
+		</categories>
+		<options>
+			<!-- module options -->
+			<option name="module_ircuseronline">
+				<categoryname>module.content</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>1</defaultvalue>
+			</option>
+			<!-- module options -->
+			<option name="ircuseronline_cachetime">
+				<categoryname>ircuseronline.general</categoryname>
+				<optiontype>integer</optiontype>
+				<defaultvalue>300</defaultvalue>
+				<showorder>1</showorder>
+			</option>
+			<option name="ircuseronline_color_op">
+				<categoryname>ircuseronline.display</categoryname>
+				<optiontype>colorchooser</optiontype>
+				<defaultvalue><![CDATA[#e33]]></defaultvalue>
+				<showorder>1</showorder>
+				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
+			</option>
+			<option name="ircuseronline_color_voice">
+				<categoryname>ircuseronline.display</categoryname>
+				<optiontype>colorchooser</optiontype>
+				<defaultvalue><![CDATA[#30f]]></defaultvalue>
+				<showorder>2</showorder>
+				<validationpattern><![CDATA[^([\#]{1}([0-9a-fA-F]{3}|[0-9a-fA-F]{6}))?$]]></validationpattern>
+			</option>
+			<option name="ircuseronline_chat_enable">
+				<categoryname>ircuseronline.chat</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+				<showorder>1</showorder>
+				<enableoptions><![CDATA[ircuseronline_chat_link]]></enableoptions>
+			</option>
+			<option name="ircuseronline_chat_link">
+				<categoryname>ircuseronline.chat</categoryname>
+				<optiontype>text</optiontype>
+				<defaultvalue>index.php?page=Index</defaultvalue>
+				<showorder>2</showorder>
+			</option>
+		</options>
+	</import>
+</data>

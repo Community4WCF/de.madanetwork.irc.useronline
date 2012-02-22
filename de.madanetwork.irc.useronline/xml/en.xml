@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: en.xml 1541 2010-08-20 16:12:51Z TobiasH87 $ -->
+<language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com/XSD/language.xsd" languagecode="en">
+	<category name="wcf.acp.group">
+		<item name="wcf.acp.group.option.user.board.canViewIRCUserOnline"><![CDATA[Can view irc user online]]></item>
+		<item name="wcf.acp.group.option.user.board.canViewIRCUserOnline.description"><![CDATA[Members of this usergroup can view irc user online]]></item>
+	</category>
+	
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.module_ircuseronline"><![CDATA[IRC User Online]]></item>
+		<item name="wcf.acp.option.module_ircuseronline.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.ircuseronline"><![CDATA[IRC User Online]]></item>
+		<item name="wcf.acp.option.category.ircuseronline.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.ircuseronline.general"><![CDATA[General]]></item>
+		<item name="wcf.acp.option.category.ircuseronline.general.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.ircuseronline.display"><![CDATA[Display]]></item>
+		<item name="wcf.acp.option.category.ircuseronline.display.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.ircuseronline.chat"><![CDATA[Chat]]></item>
+		<item name="wcf.acp.option.category.ircuseronline.chat.description"><![CDATA[Here you have the opportunity to enter a link to a chat.]]></item>
+		<item name="wcf.acp.option.ircuseronline_color_op"><![CDATA[Font color for the irc op]]></item>
+		<item name="wcf.acp.option.ircuseronline_color_op.description"><![CDATA[Choose the font color for the irc from op]]></item>
+		<item name="wcf.acp.option.ircuseronline_color_voice"><![CDATA[Font color for the irc voice]]></item>
+		<item name="wcf.acp.option.ircuseronline_color_voice.description"><![CDATA[Choose the font color for the irc from voice]]></item>
+		<item name="wcf.acp.option.ircuseronline_cachetime"><![CDATA[Cache validity]]></item>
+		<item name="wcf.acp.option.ircuseronline_cachetime.description"><![CDATA[Time when the cache of the irc user online valid. Indicated in seconds.]]></item>
+		<item name="wcf.acp.option.ircuseronline_chat_enable"><![CDATA[Link Enable]]></item>
+		<item name="wcf.acp.option.ircuseronline_chat_enable.description"><![CDATA[Activate this field to enable the link.]]></item>
+		<item name="wcf.acp.option.ircuseronline_chat_link"><![CDATA[Chat Link]]></item>
+		<item name="wcf.acp.option.ircuseronline_chat_link.description"><![CDATA[Here add the link to the chat, e.g. for "Mibbit IRC-Chat Integration": index.php?page=MibbitChat .]]></item>
+	</category>
+	
+	<category name="wbb.index">
+		<item name="wbb.index.ircuseronline"><![CDATA[{#$ircUserOnline.userstotal} {if $ircUserOnline.userstotal == 1}user is{else}users are{/if} on IRC online]]></item>
+		<item name="wbb.index.ircuseronline.channeluser"><![CDATA[user]]></item>
+		<item name="wbb.index.ircuseronline.legende"><![CDATA[Legend]]></item>
+		<item name="wbb.index.ircuseronline.op"><![CDATA[IRC-OP]]></item>
+		<item name="wbb.index.ircuseronline.voice"><![CDATA[IRC-Voice]]></item>
+	</category>
+</language> 
